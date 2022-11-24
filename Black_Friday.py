@@ -29,5 +29,5 @@ while True:
     price_int = float(price.get_attribute("innerHTML")[3:])
     print(price_int)
     if price_int <= my_price:
-        notify.send("your item is now under {}$".format(my_price), url)
+        notify.send("your item is now under EGP{}".format(my_price), url)
     time.sleep(wait)
